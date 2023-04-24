@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/order.css">
+
+</head>
+
+<body>
+    <aside>
+
+        <nav class="nav">
+            <img src="../assets/imgs/adminimg.png" alt="Admin">
+            <ul class="ul">
+                <li><a href="../index.html"><img src="../assets/icons/homeicon.png" alt="icon"
+                            style="height: 20px;padding-right: 5px;">Dashboard</a></li>
+                <li><a href="products.html"><img src="../assets/icons/producticon.png" alt="icon"
+                            style="height: 20px;padding-right: 5px;">Products</a></li>
+                <li><a href="add-products.html"><img src="../assets/icons/add-product-icon.png" alt="icon"
+                            style="height: 20px;padding-right: 5px;">Add product</a></li>
+                <li><a href="categories.html"><img src="../assets/icons/categories.png" alt="icon"
+                            style="height: 20px;padding-right: 5px;">Categories</a></li>
+                <li><a href="order.html"><img src="../assets/icons/order-icon.png" alt="icon"
+                            style="height: 25px;padding-right: 5px;">Orders</a></li>
+                <li><a href="users.html"><img src="../assets/icons/user-icon.png" alt="icon"
+                            style="height: 20px;padding-right: 5px;">Users</a></li>
+
+                <li><a href="transaction.html"><img src="../assets/icons/transaction-icon.png" alt="icon"
+                            style="height: 20px;padding-right: 5px;">Transactions</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+    <aside class="aside-right">
+        <div class="search">
+            <input type="text" placeholder="search term">
+        </div>
+        <section>
+            <div class="proname" style="margin-top: 20px;margin-bottom: 20px;">
+                <h1 style="font-size: x-large; display: inline; ">Orders</h1>
+
+            </div>
+        </section>
+
+
+        <section class="sec1">
+            <div class="div1">
+                <div class="order-search ">
+                    <input type="text" placeholder="search Order">
+
+                    <select name="Status" id="category" style="display: inline; padding: 8px; margin: 0px;">
+                        <option value="Status">Status</option>
+                        <option value="Active">Active</option>
+                        <option value="Disabled">Disabled</option>
+                        <option value="Show all">Show all</option>
+
+                    </select>
+
+                    <select name="Show" id="show" style="display: inline; padding: 8px; margin: 0px;">
+                        <option value="Show 20">Show 20</option>
+                        <option value="Show 30">Show 30</option>
+                        <option value="Show 40">Show 40</option>
+                        <option value="Show all">Show all</option>
+
+                    </select>
+                    
+                </div>
+
+                <div class="order-table">
+                    <table>
+                        <tr>
+                            <th>S. No.</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Total</th>
+                            <th>Paid</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+
+                        <tr>
+                            <td>01 </td>
+                            <td>User Name</td>
+                            <td>user@example.com</td>
+                            <td>&#8377;45,789</td>
+                            <td class="not-paid">Not Paid </td>
+                            <td>Dec 12 2021</td>
+                            <td class="delivered">Delivered</td>
+                            <td><a href=""><img src="../assets/icons/eye-icon.png" alt="details"
+                                        style="height: 25px;"></a></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>02 </td>
+                            <td>User Name</td>
+                            <td>user@example.com</td>
+                            <td>&#8377;45,789</td>
+                            <td class="paid ">Paid </td>
+                            <td>Dec 12 2021</td>
+                            <td class="delivered">Delivered</td>
+                            <td><a href=""><img src="../assets/icons/eye-icon.png" alt="details"
+                                        style="height: 25px;"></a></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>03 </td>
+                            <td>User Name</td>
+                            <td>user@example.com</td>
+                            <td>&#8377;45,789</td>
+                            <td class="paid">Paid </td>
+                            <td>Dec 12 2021</td>
+                            <td class="not-delivered">Not Delivered</td>
+                            <td><a href=""><img src="../assets/icons/eye-icon.png" alt="details"
+                                        style="height: 25px;"></a></td>
+                        </tr>
+
+
+
+                    </table>
+                </div>
+
+            </div>
+        </section>
+
+    </aside>
+</body>
+
+</html>

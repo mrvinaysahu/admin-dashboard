@@ -1,0 +1,98 @@
+
+
+
+
+label {
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.a1 {
+    border-radius: 3px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(184, 184, 184);
+    color: black;
+
+}
+
+.input {
+    margin-top: 4px;
+    padding: 5px;
+    padding-left: 0px;
+    font-size: 15px;
+    width: 305px;
+    border-radius: 3px;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+.input>p {
+    border-radius: 3px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.button1 {
+
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 305px;
+    cursor: pointer;
+    display: inline;
+
+}
+
+
+.sec2 {
+    /* background-color: red; */
+    /* height: 400px; */
+    /* float: left; */
+}
+.div1 {
+    
+    border: solid 1px;
+    /* height: 300px; */
+    padding: 20px;
+    display: inline-block;
+    /* width: 200px; */
+}
+
+.div22{
+    margin-top: 30px;
+    padding: 20px;
+    border: solid 2px;
+    margin-bottom: 100px;
+}
+td>a>img{
+    height: 20px;
+}
+
+table{
+    width: 100%;
+}
+th{
+    border-bottom: solid 3px black;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding: 10px;
+
+}

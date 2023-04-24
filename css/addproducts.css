@@ -1,0 +1,43 @@
+label{
+    font-size: 12px;
+    display: inline;
+   
+}
+.section2>input{
+   margin-top: 4px;
+    padding: 5px;
+    font-size: 15px;
+    width: 700px;
+    border-radius: 3px;
+    bottom: solid 1px;
+    margin-bottom: 20px;
+}
+.input{
+      margin-top: 4px;
+    padding: 5px;
+    padding-left: 0px;
+    font-size: 15px;
+    width: 705px;
+    border-radius: 3px;
+    bottom: solid 1px;
+    margin-bottom: 20px;
+    border: solid 2px;
+}
+.input>p{
+     border-radius: 3px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+   padding: 5px;
+}
+.a1{
+    border-radius: 3px;
+   display: inline;
+   margin: 0px;
+   padding: 0px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: rgb(184, 184, 184);
+    color: black;
+
+}
